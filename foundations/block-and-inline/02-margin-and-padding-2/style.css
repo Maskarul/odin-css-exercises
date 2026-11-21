@@ -4,17 +4,45 @@ body {
 }
 
 .card {
-  width: 400px;
+  width: 450px;
+  height: auto;
+  font-size: 16px;
   background: white;
-  margin: 16px auto;
+  border: 10px solid white;
+  /* border-left: 10px solid white;
+  border-right: 10px solid white;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white; */
+}
+
+h1 {
+  margin-bottom: 0;
 }
 
 .title,
 .content,
 .button-container {
   background: dodgerblue;
+  /* border: 10px solid white;  */
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.button-container {
+  /* To make the text and the button in the center 
+  as shown in the desired output. */
+  display: grid;
+  place-items: center;
 }
 
 button {
   background: white;
-}
+  border: 2px solid black;
+  width: 130px;
+  height: 35px;
+  display: block;
+  align-items: center;
+  /* text-align: center;
+  justify-content: center; /* horizontal */
+  /* align-items: center;     vertical */
+} 
